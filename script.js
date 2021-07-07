@@ -1,5 +1,5 @@
 var x = Number(prompt("escolha um numero"))
-var resultado = e_par(x)
+var resultado = e_multiplo_de_3(x)
 
 
 
@@ -33,4 +33,13 @@ function e_par(numero){
     }else{
         return "e impar"
     }
+}
+function e_multiplo_de_3(numero){
+    if(numero % 3 == 0){
+        return "e multilplo de 3"
+    }else{
+      return "nao e multiplo de 3"  
+    }
+       
+    
 }
