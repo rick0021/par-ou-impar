@@ -1,5 +1,5 @@
 var x = Number(prompt("escolha um numero"))
-var resultado = metade(x)
+var resultado = e_par(x)
 
 
 
@@ -7,9 +7,8 @@ var resultado = metade(x)
 
 
 
-alert(
-    resultado
-)
+
+mostra(resultado)
 
 
 
@@ -24,3 +23,14 @@ function metade(numero){
     return numero/2
 }
 
+function mostra(texto){
+    alert(texto)
+}
+
+function e_par(numero){
+    if(numero % 2 == 0){
+        return  "e par"
+    }else{
+        return "e impar"
+    }
+}
