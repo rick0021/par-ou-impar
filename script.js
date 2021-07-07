@@ -1,5 +1,5 @@
 var x = Number(prompt("escolha um numero"))
-var resultado = e_multiplo_de_3(x)
+var resultado = e_multiplo_de_5(x)
 
 
 
@@ -39,7 +39,12 @@ function e_multiplo_de_3(numero){
         return "e multilplo de 3"
     }else{
       return "nao e multiplo de 3"  
+    }   
+}
+function e_multiplo_de_5(numero){
+    if(numero % 5 ==0){
+        return "e multiplo de 5"
+    }else{
+        return "nao e multiplo de 5"
     }
-       
-    
 }
