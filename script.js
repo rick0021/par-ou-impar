@@ -1,6 +1,26 @@
+var x = Number(prompt("escolha um numero"))
+var resultado = metade(x)
 
-var cleiton = prompt("escolha um numero")
+
+
+
+
+
 
 alert(
-    cleiton
+    resultado
 )
+
+
+
+
+
+
+function dobro(numero){
+    return numero*2
+}
+
+function metade(numero){
+    return numero/2
+}
+
